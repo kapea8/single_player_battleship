@@ -1,7 +1,16 @@
-# single_player_battleship
+# Battleship Game - Python Command Line
 
-This is a single player battleship game that I coded in Intro to CS 1. The code for placing the ships was provided by my professor, and the rest was done by me.
-The game is played in the terminal on a 4x4 board and each space on the board is marked with a dash, "M", or "H".
-A dash represents an unguessed space, "M" represents a miss, and "H" represents a hit.
-Once the user sinks a ship, a message will print to the terminal alerting them of such.
-The user wins if they sink all the ships within the given number of guesses and a win/lose message will be printed accordingly.
+## Description
+
+This Python project implements a classic Battleship game played in the command line. The game features randomly placed ships on a grid, and the player attempts to sink them by guessing their locations. The game provides feedback on hits and misses, displays the game board, and tracks the number of remaining guesses.
+
+## Features
+
+* **Command-Line Interface (CLI):** Implemented using standard Python input and output for a straightforward text-based gaming experience.
+* **Random Ship Placement:** Utilizes a separate `ships.py` module to randomly place ships on the game board, ensuring varied gameplay.
+* **Grid-Based Gameplay:** Represents the game board as a 2D list, allowing for easy tracking of guesses and ship locations.
+* **Hit/Miss Feedback:** Provides clear feedback to the player on each guess, indicating whether it was a hit or a miss.
+* **Ship Sinking Detection:** Determines when a ship has been completely sunk and informs the player.
+* **Color-coded display:** Uses the termcolor library to color hits red, and misses blue.
+* **Guess Tracking:** Limits the number of guesses the player has, adding a challenge to the game.
+* **Win/Lose Conditions:** Clearly defines and communicates the win and lose states to the player.
